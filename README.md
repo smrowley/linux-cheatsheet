@@ -29,3 +29,10 @@ echo | \
 For more details:
 
 https://stackoverflow.com/questions/7885785/using-openssl-to-get-the-certificate-from-a-server
+
+
+### Use `curl` with SNI
+
+```
+curl -vik --resolve example.com:443:198.18.110.10 https://example.com/
+```
